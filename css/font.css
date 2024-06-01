@@ -1,0 +1,80 @@
+/* font.css */
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 100;
+     src: local('Noto Sans Light'), local('NotoSans-Light'), url(/fonts/NotoSans-Light.eot);
+     src: url(/fonts/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+     url(/fonts/NotoSans-Light.woff2) format('woff2'),
+     url(/fonts/NotoSans-Light.woff) format('woff');
+     unicode-range: U+AC00-D7A3;
+}
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 300;
+     src: local('Noto Sans Regular'), local('NotoSans-Regular'), url(/fonts/NotoSans-Regular.eot);
+     src: url(/fonts/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+     url(/fonts/NotoSans-Regular.woff2) format('woff2'),
+     url(/fonts/NotoSans-Regular.woff) format('woff');
+     unicode-range: U+AC00-D7A3;
+}
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Noto Sans Medium'), local('NotoSans-Medium'), url(/fonts/NotoSans-Medium.eot);
+     src: url(/fonts/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+     url(/fonts/NotoSans-Medium.woff2) format('woff2'),
+     url(/fonts/NotoSans-Medium.woff) format('woff');
+     unicode-range: U+AC00-D7A3;
+}
+@font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 500;
+     src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(/fonts/NotoSans-Bold.eot);
+     src: url(/fonts/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+     url(/fonts/NotoSans-Bold.woff2) format('woff2'),
+     url(/fonts/NotoSans-Bold.woff) format('woff');
+     unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+    font-family: 'CocoSharpL';
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0;
+    src: url('../fonts/CocoSharpL-Regular.eot');
+    src: url('../fonts/CocoSharpL-Regular.eot#iefix') format('embedded-opentype'),
+         url('../fonts/CocoSharpL-Regular.ttf') format('truetype'),
+         url('../fonts/CocoSharpL-Regular.woff') format('woff'),
+         url('../fonts/CocoSharpL-Regular.woff2') format('woff2');
+         unicode-range: U+0041-005A, U+0061-007A, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+0030-0039
+  }
+@font-face {
+    font-family: 'CocoSharpL';
+    font-style: medium;
+    font-weight: 500;
+    letter-spacing: 0;
+    src: url('../fonts/CocoSharpL-Bold.eot');
+    src: url('../fonts/CocoSharpL-Bold.eot#iefix') format('embedded-opentype'),
+         url('../fonts/CocoSharpL-Bold.ttf') format('truetype'),
+         url('../fonts/CocoSharpL-Bold.woff') format('woff'),
+         url('../fonts/CocoSharpL-Bold.woff2') format('woff2');
+         unicode-range: U+0041-005A, U+0061-007A, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+0030-0039
+  }
+@font-face {
+    font-family: 'CocoSharpL';
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: 0;
+    src: url('../fonts/CocoSharpL-Heavy.eot');
+    src: url('../fonts/CocoSharpL-Heavy.eot#iefix') format('embedded-opentype'),
+         url('../fonts/CocoSharpL-Heavy.ttf') format('truetype'),
+         url('../fonts/CocoSharpL-Heavy.woff') format('woff'),
+         url('../fonts/CocoSharpL-Heavy.woff2') format('woff2');
+         unicode-range: U+0041-005A, U+0061-007A, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+0030-0039
+  }
+  
+  

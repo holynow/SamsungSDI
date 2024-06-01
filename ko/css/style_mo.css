@@ -1,0 +1,328 @@
+/* style_mo.css */
+/* 2100 */
+@media (max-width: 2100px) {
+    .ad_mov .pc_mov {
+        width: auto;
+        height: 100vh;
+      }
+}
+/* 1400px */
+@media screen and (max-width: 1400px), screen and (max-height:1080px) {
+    .header {
+        padding: 30px 30px;
+    }
+    .mov_wrap .player {
+        min-width: 100%;
+        padding: 0 5%;
+        margin: 0;
+    }
+    .mov_wrap .player video {
+        height: 66%;
+    }
+    .info_wrap .tit_wrap {
+        width: 250px;
+    }
+    .info_wrap .txt > div > p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .info_wrap .black_box {
+        margin: 30px auto;
+        width: 600px;
+    }
+    .info_wrap .black_box .img_area {
+        width: 120px;
+    }
+    .info_wrap .black_box .text_area {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+    .info_wrap .black_box .text_area ul {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .info_wrap .black_box > div {
+        padding: 20px;
+    }
+    .keyword_wrap .tit_wrap .tit {
+        font-size: 50px;
+    }
+}
+/* 1024px */
+@media (max-width: 1024px) {
+    .main_top .main_tit .tit {
+        width: 400px;
+      }
+    .main_top .main_tit .sub_txt {
+        width: 600px;
+    }
+    .info_wrap .txt > div > p {
+        font-size: 18px;
+    }
+    .info_wrap .black_box > div {
+        padding: 30px 40px;
+    }
+    .info_wrap .black_box .img_area img {
+        width: 100%;
+    }
+    .keyword_wrap .backdrop {
+        width: 60%;
+    }
+}
+/* 670px */
+@media (max-width:670px) {
+    .ad_mov .mo_mov {
+        width: auto;
+        height: 100vh;
+      }
+      .info_wrap .black_box {
+          width: 80%;
+      }
+}
+/* 768px */
+@media (max-width: 768px) {
+    .section_wrap .section {
+        height: auto;
+    }
+    .section .main_top {
+        height: 70%;
+    }
+    .section .mov_wrap {
+        height: 50%;
+    }
+    .section .bot_area {
+        height: 80%;
+    }
+    .section .keyword_wrap,
+    .section .info_wrap {
+        height: auto;
+    }
+    .info_wrap .tit_wrap {
+        width: 150px;
+        margin: 0 auto;
+    }
+    .info_wrap .black_box .text_area > p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .info_wrap .black_box .text_area ul li {
+        font-size: 12px;
+    }
+    .dim {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.7);
+        z-index: 99;
+    }
+    .header {
+        padding: 10px 20px;
+    }
+    .header.scroll_on {
+        background: rgba(0,0,0,1);
+    }
+    .header .logo {
+        width: 120px;
+    }
+    .header .nav_wrap {
+        display: none;
+    }
+    .header.revers {
+        background: transparent;
+    }
+    .header .nav_btn {
+        display: block;
+    }
+    .header.revers .logo .logo_img {
+        display: none;
+    }
+    .header.revers .logo .logo_img_bk {
+        display: block;
+    }
+    .header.revers .nav_btn button {
+        background: url('../image/ico_nav_bk.png')no-repeat;
+        background-size: cover;
+      }
+    .main_top .main_tit .tit {
+        width: 350px;
+      }
+    .main_top .main_tit .sub_txt {
+        width: 400px;
+        margin-top: 20px;
+    }
+    .section .info_wrap {
+        display: block;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    .info_wrap .txt > div > p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .info_wrap .black_box {
+        margin-top: 30px;
+    }
+    .info_wrap .black_box > div {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .info_wrap .black_box .text_area::before {
+        display: none;
+    }
+    .info_wrap .black_box .text_area {
+        margin: 20px 0 0 0;
+        padding: 20px 0 0;
+    }
+    .info_wrap .black_box .text_area ul {
+        font-size: 13px;
+    }
+    .keyword_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .keyword_wrap .backdrop {
+        display: block;
+        padding: 15% 10%;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(260deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%)!important;
+    }
+    .keyword_wrap.keyword02 .backdrop {
+        width: 100%;
+        align-items: flex-start;
+        padding: 15% 10%;
+    }
+    .keyword_wrap .img_wrap {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+    }
+    .keyword_wrap .img_wrap img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 1000px;
+    }
+    .keyword_wrap.keyword02 .img_wrap img {
+        left: auto;
+        right: 0;
+    }
+    .keyword_wrap .tit_wrap em {
+        font-size: 16px;
+    }
+    .keyword_wrap .tit_wrap .txt {
+        margin-top: 20px;
+    }
+    .keyword_wrap .tit_wrap .txt p {
+        font-size: 30px;
+    }
+    .keyword_wrap .tit_wrap .tit {
+        font-size: 40px;
+    }
+    .keyword_wrap .tit_wrap .txt span {
+        font-size: 16px;
+    }
+    .bot_area .tit h2 {
+        font-size: 50px;
+    }
+    .bot_area .small_txt > p > span {
+        font-size: 18px;
+    }
+    .ad_mov .pc_mov {
+        display: none;
+    }
+    .ad_mov .mo_mov {
+        display: block;
+    }
+    .footer {
+        transform: translateY(0)!important;
+        padding: 50px 30px 100px;
+    }
+    .info_wrap .black_box .img_area {
+        display: none;
+    }
+    .info_wrap .black_box .text_area {
+        margin: 0;
+        padding: 0;
+    }
+    .bot_area .head_txt .slogan:after,
+    .bot_area .head_txt .slogan:before {
+        background: url('../image/ico_mark.png') no-repeat;
+        background-size: 50%;
+    }
+    .bot_area .head_txt .slogan:before {
+        left: -20px;
+    }
+    .bot_area .head_txt .slogan:after {
+        right: -20px;
+        top: -2px;
+    }
+    .bot_area .head_txt .slogan {
+        margin: 0 25px;
+        font-size: 40px;
+    }
+    .bot_area .head_txt {
+        font-size: 20px;
+    }
+}
+
+/* 500px */
+@media (max-width: 500px) {
+    .main_top .main_tit .tit {
+        width: 230px;
+      }
+    .main_top .main_tit .sub_txt {
+        width: 280px;
+        margin-top: 20px;
+    }
+    .mov_wrap .player .floating_btn {
+        width: 60px;
+        height: 60px;
+        background-size: 60px;
+    }
+    .keyword_wrap .tit_wrap em {
+        font-size: 20px;
+    }
+    .keyword_wrap .tit_wrap .tit {
+        font-size: 30px;
+    }
+    .keyword_wrap .tit_wrap .txt p {
+        font-size: 16px;
+    }
+    .keyword_wrap .tit_wrap .txt span {
+        margin-top: 10px;
+        font-size: 14px;
+        word-break: keep-all;
+    }
+    .bot_area .tit h2 {
+        font-size: 40px;
+    }
+    .bot_area .small_txt > p > span {
+        font-size: 14px;
+    }
+    .bot_area .head_txt {
+        font-size: 16px;
+    }
+    .bot_area .head_txt .slogan {
+        font-size: 30px;
+    }
+    .bot_area .sub_txt > p > span {
+        font-size: 23px;
+    }
+    .keyword_wrap .img_wrap img {
+        width: 200%;
+    }
+}
+/* 375px */
+@media (max-width: 375px) {
+    .info_wrap .black_box .text_area ul {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .info_wrap .txt > div > p {
+        font-size: 13px;
+    }
+}
